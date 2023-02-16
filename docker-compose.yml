@@ -8,3 +8,8 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=123
       - POSTGRES_DB=uniswap-pairs
+  app:
+    build: .
+    depends_on:
+      - uniswap-pairs-postgres
+    command: npm start

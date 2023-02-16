@@ -1,3 +1,3 @@
 import { pairsJob } from "./cronService/pairsJob";
 
-pairsJob.start()
+pairsJob.start();

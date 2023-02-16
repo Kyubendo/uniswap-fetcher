@@ -35,5 +35,5 @@ lerna-debug.log*
 !.vscode/launch.json
 !.vscode/extensions.json
 
-#
-.env
+# Uncommented for test showing
+#.env
